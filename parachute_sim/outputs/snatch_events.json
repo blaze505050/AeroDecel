@@ -1,0 +1,24 @@
+[
+  {
+    "stage": "drogue",
+    "time_s": 0.0,
+    "altitude_m": 1000.0,
+    "velocity_ms": 25.0,
+    "peak_force_N": 2485.7,
+    "rated_load_N": 15000.0,
+    "safety_factor": 6.035,
+    "CLA": 2.9507,
+    "status": "OK"
+  },
+  {
+    "stage": "main",
+    "time_s": 29.327,
+    "altitude_m": 300.0,
+    "velocity_ms": 23.349,
+    "peak_force_N": 34954.3,
+    "rated_load_N": 80000.0,
+    "safety_factor": 2.289,
+    "CLA": 1.4367,
+    "status": "OK"
+  }
+]

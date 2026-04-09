@@ -1,0 +1,21 @@
+{
+  "A_inf_m2": 34.1624,
+  "D_nominal_m": 6.595,
+  "D_constructed_m": 7.123,
+  "v_land_target": 5.0,
+  "v_land_actual": 4.9999,
+  "residual_ms": -0.00012,
+  "n_evals": 13,
+  "pack_volume_m3": 0.00163,
+  "pack_weight_kg": 1.729,
+  "note": "OK",
+  "req_line_rated_N": 3406.9,
+  "inputs": {
+    "mass_kg": 80.0,
+    "alt0_m": 1000.0,
+    "v0_ms": 25.0,
+    "Cd": 1.5,
+    "t_infl_s": 2.5,
+    "target_v_ms": 5.0
+  }
+}
