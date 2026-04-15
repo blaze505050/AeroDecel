@@ -1,4 +1,4 @@
-# 🚀 AeroDecel v6.1 — Project Icarus
+# 🚀 AeroDecel v6.1
 
 > The most comprehensive open-source planetary EDL simulation framework.
 > 28 features across 5 tiers. Zero cost. Zero API keys. 100% Python.
