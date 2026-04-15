@@ -1,0 +1,21 @@
+# AeroDecel v6.0 — Requirements
+# Install: pip install -r requirements.txt
+
+# Core
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Web dashboard
+dash>=2.14.0
+plotly>=5.17.0
+
+# 3-D visualisation (optional — photorealistic PyVista rendering)
+# pip install pyvista pyvistaqt
+
+# Machine learning (optional — PINN + neural operators)
+# pip install torch>=2.0.0
+
+# Testing
+pytest>=7.4.0
