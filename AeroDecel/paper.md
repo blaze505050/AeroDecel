@@ -23,23 +23,23 @@ bibliography: paper.bib
 
 AeroDecel is a comprehensive, open-source Python framework for simulating
 planetary Entry, Descent, and Landing (EDL) trajectories with support for
-multi-body 6-DOF dynamics, real-gas thermochemistry, ablative thermal
+multi body 6-DOF dynamics, real gas thermochemistry, ablative thermal
 protection, aeroelastic flutter analysis, and lattice Boltzmann turbulence
-modelling. The framework couples high-fidelity physics modules — including
+modelling. The framework couples high fidelity physics modules including
 Park 1993 CO$_2$ dissociation kinetics, Amar ablation modelling, and
-modified Newtonian aerodynamics — with machine-learning surrogates such as
+modified Newtonian aerodynamics with machine learning surrogates such as
 normalising flows, Fourier neural operators, graph neural networks, and
 Gaussian process emulators. AeroDecel enables researchers and engineers to
-perform end-to-end EDL mission analysis, from atmospheric entry through
+perform end to end EDL mission analysis, from atmospheric entry through
 parachute deployment to powered terminal descent, entirely in Python with
 zero proprietary dependencies.
 
 # Statement of Need
 
-High-fidelity EDL simulation has traditionally been confined to proprietary
+High fidelity EDL simulation has traditionally been confined to proprietary
 tools developed by major aerospace contractors and national space agencies.
 Codes such as POST II (NASA), DSENDS (JPL), and LAURA (Langley) are either
-export-controlled, require expensive licences, or lack the modularity
+export controlled, require expensive licences, or lack the modularity
 needed for rapid prototyping of novel mission concepts. Open-source
 alternatives do exist, but they are typically fragmented: a 3-DOF
 trajectory integrator here, a standalone ablation solver there, with no
@@ -47,25 +47,25 @@ unified framework that spans the full EDL sequence from hypersonic entry
 interface to touchdown.
 
 AeroDecel addresses this gap by providing a single, pip-installable Python
-package that integrates 28 features across five tiers — physics, machine
+package that integrates 28 features across five tiers physics, machine
 learning, systems engineering, visualisation, and software infrastructure
-— under a consistent API. The framework is designed for three primary
+under a consistent API. The framework is designed for three primary
 audiences:
 
 1. **Academic researchers** who need a transparent, modifiable codebase for
    validating new EDL guidance, aerothermodynamic, or TPS models against
    heritage mission data (e.g., Mars 2020 Perseverance).
 2. **Aerospace engineering students** who require an accessible tool for
-   coursework and thesis projects without navigating export-control
+   coursework and thesis projects without navigating export control
    barriers.
 3. **Small-satellite and commercial teams** who need rapid EDL feasibility
    assessment without committing to heavyweight proprietary toolchains.
 
 The framework has been validated against reconstructed Perseverance EDL
-flight data, achieving $R^2 > 0.999$ on the velocity–altitude profile
+flight data, achieving $R^2 > 0.999$ on the velocity altitude profile
 after automated drag-coefficient calibration. Its modular architecture
-— documented in `CONTRIBUTING.md` with clear extension patterns for
-adding planets, TPS materials, and ML modules — lowers the barrier to
+documented in `CONTRIBUTING.md` with clear extension patterns for
+adding planets, TPS materials, and ML modules lowers the barrier to
 community contribution and reproducible EDL research.
 
 # Core Physics and Computational Models
