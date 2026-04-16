@@ -1,6 +1,0 @@
-# AeroDecel v6.0 — Core Requirements
-# Install: pip install -r requirements-core.txt
-# This gets you ALL physics modules in ~30 seconds.
-
-numpy>=1.24.0
-scipy>=1.11.0
